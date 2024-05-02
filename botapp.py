@@ -3,11 +3,12 @@ import numpy as np
 import json
 import random
 import pickle
-import nltk
 from nltk.stem import WordNetLemmatizer
 from tensorflow import keras
 from gtts import gTTS
 from IPython.display import Audio
+import nltk
+nltk.download('punkt')
 
 # Load data and model
 words = pickle.load(open('words.pkl', 'rb'))
