@@ -9,6 +9,7 @@ from gtts import gTTS
 from IPython.display import Audio
 import nltk
 nltk.download('punkt')
+nltk.download('wordnet')
 
 # Load data and model
 words = pickle.load(open('words.pkl', 'rb'))
