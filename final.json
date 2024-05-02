@@ -1,0 +1,440 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Greetings",
+                "Hi bot"
+            ],
+            "responses": [
+                "Hello! How can I assist you with your agricultural needs today?",
+                "Hi there! Ready to chat about farming?",
+                "Greetings! What can I help you with today?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Thanks, goodbye"
+            ],
+            "responses": [
+                "Goodbye! Happy farming!",
+                "See you later! Take care!",
+                "Thanks for chatting!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad I could help!",
+                "Anytime!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Tropical Climate",
+            "patterns": [
+                "What crops thrive in tropical climates?, What crops are suitable for tropical regions?, What can I grow in a tropical climate?"
+            ],
+            "responses": [
+                "In tropical climates like yours, consider growing crops such as bananas, mangoes, pineapples, rice, sugarcane, coconut, black pepper, and turmeric."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Subtropical Climate" ,
+            "patterns": [
+                "What crops do well in subtropical regions?, Which plants grow best in subtropical climates?, What should I grow in a subtropical climate?"
+            ],
+            "responses": [
+                "For subtropical climates, crops like citrus fruits (oranges, lemons), avocados, guavas, grapes, peaches, tea, and cardamom are suitable."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Arid or Desert Climate" ,
+            "patterns": [
+                "What crops thrive in arid or desert climates?, Which crops are suitable for arid regions?, What can I grow in an arid climate?"
+            ],
+            "responses": [
+                "In arid or desert climates, consider growing crops such as cactus pear, prickly pear, date palms, olives, millet, sorghum, and pigeon peas."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Mountainious Climate" ,
+            "patterns": [
+                "What crops are suitable for mountainous regions?, Which plants grow well in mountainous climates?, What should I grow in a mountainous climate?"
+            ],
+            "responses": [
+                "For mountainous climates, crops like apples, pears, walnuts, barley, potatoes, kidney beans, and buckwheat are suitable."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Costal Climate" ,
+            "patterns": [
+                "What crops thrive in coastal regions?, Which crops are suitable for coastal climates?, What can I grow in a coastal climate?"
+            ],
+            "responses": [
+                "In coastal climates, consider growing crops such as coconuts, cashews, seafood (fish, prawns), rice, betel leaves, turmeric, and tapioca."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fertilizer_recommendations for Alluvial Soil",
+            "patterns": [
+                "What fertilizer should I use for alluvial soil?",
+                "Which fertilizer is suitable for pH range of 6.5 - 8.5 ?",
+                "What nutrients does alluvial soil need?"
+            ],
+            "responses": [
+                "For soils with alluvial composition and pH range of 6.5 - 8.5, consider using fertilizers with an NPK ratio of 100:60:40."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fertilizer_recommendations for Black Soil",
+            "patterns": [
+                "What fertilizer should I use for Black soil?",
+                "Which fertilizer is suitable for pH range of 7.0 - 8.5?",
+                "What nutrients does black soil need?"
+            ],
+            "responses": [
+                "For black soils with a pH range of 7.0 - 8.5, fertilizers with an NPK ratio of 100:40:40 are recommended."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fertilizer_recommendations for Red Soil",
+            "patterns": [
+                "What fertilizer should I use for Red soil?",
+                "Which fertilizer is suitable for pH range of 5.5 - 7.0?",
+                "What nutrients does Red soil need?"
+            ],
+            "responses": [
+                "Red soils with a pH range of 5.5 - 7.0 benefit from fertilizers with an NPK ratio of 100:50:50."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fertilizer_recommendations for Laterite Soil",
+            "patterns": [
+                "What fertilizer should I use for Laterite soil?",
+                "Which fertilizer is suitable for pH range of 4.0 - 6.0?",
+                "What nutrients does Laterite soil need?"
+            ],
+            "responses": [
+                "Laterite soils, with a pH range of 4.0 - 6.0, require fertilizers with an NPK ratio of 100:30:30."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fertilizer_recommendations for Mountain Soil",
+            "patterns": [
+                "What fertilizer should I use for Mountain soil?",
+                "Which fertilizer is suitable for pH range of 4.5 - 6.5?",
+                "What nutrients does Mountain soil need?"
+            ],
+            "responses": [
+                "Mountain soils, with a pH range of 4.5 - 6.5, can be fertilized with an NPK ratio of 100:30:60."            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_disease_diagnosis",
+            "patterns": [
+                "What should I do if my crops show signs of Water-soaked lesions on leaves?",
+                "What are the symptoms of Bacterial Blight?"
+            ],
+            "responses": [
+                " Bacterial Blight - Symptoms: Water-soaked lesions on leaves, Treatment: Apply copper-based fungicides."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_disease_diagnosis",
+            "patterns": [
+                "What should I do if my crops show signs of White powdery patches on leaves?",
+                "What are the symptoms of Powdery Mildew ?"
+            ],
+            "responses": [
+                " Powdery Mildew - Symptoms: White powdery patches on leaves, Treatment: Apply sulfur-based fungicides."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_disease_diagnosis",
+            "patterns": [
+                "What should I do if my crops show signs of Yellowing and wilting of leaves?",
+                "What are the symptoms of Fusarium Wilt?"
+            ],
+            "responses": [
+                "Fusarium Wilt - Symptoms: Yellowing and wilting of leaves, Treatment: Rotate crops and use resistant varieties."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_disease_diagnosis",
+            "patterns": [
+                "What should I do if my crops show signs of Yellowing and curling of leaves?",
+                "What are the symptoms of Downy Mildew?"
+            ],
+            "responses": [
+                "Downy Mildew - Symptoms: Yellowing and curling of leaves, Treatment: Apply copper-based fungicides."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_disease_diagnosis",
+            "patterns": [
+                "What should I do if my crops show signs of Orange-brown rust spots on leaves?",
+                "What are the symptoms of Leaf Rust?"
+            ],
+            "responses": [
+                "Leaf Rust - Symptoms: Orange-brown rust spots on leaves, Treatment: Apply fungicides and practice crop rotation."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_disease_diagnosis",
+            "patterns": [
+                "What should I do if my crops show signs of Dark, sunken lesions on fruits?",
+                "What are the symptoms of Anthracnose?"
+            ],
+            "responses": [
+                "Anthracnose - Symptoms: Dark, sunken lesions on fruits, Treatment: Apply fungicides and remove infected plant parts."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_disease_diagnosis",
+            "patterns": [
+                "What should I do if my crops show signs of Rotting of roots and stunted growth?",
+                "What are the symptoms of Root Rot?"
+            ],
+            "responses": [
+                "Root Rot - Symptoms: Rotting of roots, stunted growth, Treatment: Improve drainage and avoid overwatering."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_disease_diagnosis",
+            "patterns": [
+                "What should I do if my crops show signs of Circular spots on leaves?",
+                "What are the symptoms of Leaf Spot?"
+            ],
+            "responses": [
+                "Leaf Spot - Symptoms: Circular spots on leaves, Treatment: Remove and destroy infected plant parts, apply fungicides."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_disease_diagnosis",
+            "patterns": [
+                "What should I do if my crops show signs of Softening and rotting of stems?",
+                "What are the symptoms of Stem Rot?"
+            ],
+            "responses": [
+                "Stem Rot - Symptoms: Softening and rotting of stems, Treatment: Improve soil drainage and avoid waterlogged conditions."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "crop_disease_diagnosis",
+            "patterns": [
+                "What should I do if my crops show signs of Water-soaked lesions on leaves?",
+                "What are the symptoms of Bacterial Leaf Spot?"
+            ],
+            "responses": [
+                "Bacterial Leaf Spot - Symptoms: Water-soaked lesions on leaves, Treatment: Apply copper-based fungicides."
+            ],
+            "context_set": ""
+        },         
+        {
+            "tag": "soil_testing",
+            "patterns": [
+                "How do I test my soil?",
+                "What soil tests should I do?",
+                "Can you guide me with soil testing?"
+            ],
+            "responses": [
+                "To test your soil, you can use a soil testing kit to measure NPK levels, pH, and other nutrients. Would you like guidance on interpreting the results?",
+                "Use a soil test kit to measure key nutrients and pH. Let me know if you need help analyzing the results."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "irrigation_advice",
+            "patterns": [
+                "What are the best irrigation techniques for Indo-Gangetic plains?",
+                "How can I choose the right irrigation method for Indo-Gangetic plains?"
+            ],
+            "responses": [
+                "In the Indo-Gangetic plains, flood irrigation is commonly used due to the presence of clayey soils with high water retention capacity."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "irrigation_advice",
+            "patterns": [
+                "What are the best irrigation techniques for arid regions of Rajasthan?",
+                "How can I choose the right irrigation method for arid regions of Rajasthan?"
+            ],
+            "responses": [
+                "For the arid regions of Rajasthan, drip irrigation and mulching techniques are recommended to conserve water and minimize evaporation."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "irrigation_advice",
+            "patterns": [
+                "What are the best irrigation techniques for coastal regions of Kerala and Tamil Nadu?",
+                "How can I choose the right irrigation method for coastal regions of Kerala and Tamil Nadu?"
+            ],
+            "responses": [
+                "In the coastal regions of Kerala and Tamil Nadu, drip irrigation with saline water management is beneficial to mitigate salinity issues."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "irrigation_advice",
+            "patterns": [
+                "What are the best irrigation techniques for hilly terrains of Himachal Pradesh and Uttarakhand?",
+                "How can I choose the right irrigation method for hilly terrains of Himachal Pradesh and Uttarakhand?"
+            ],
+            "responses": [
+                "In the hilly terrains of Himachal Pradesh and Uttarakhand, gravity-fed irrigation systems such as contour trenching are suitable for efficient water distribution."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "irrigation_advice",
+            "patterns": [
+                "What are the best irrigation techniques for alluvial plains of Punjab and Haryana?",
+                "How can I choose the right irrigation method for alluvial plains of Punjab and Haryana?"
+            ],
+            "responses": [
+                "In the alluvial plains of Punjab and Haryana, sprinkler irrigation and subsurface drainage systems help in managing water resources effectively."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "irrigation_advice",
+            "patterns": [
+                "What are the best irrigation techniques for deltaic regions of West Bengal and Odisha?",
+                "How can I choose the right irrigation method for deltaic regions of West Bengal and Odisha?"
+            ],
+            "responses": [
+                "For the deltaic regions of West Bengal and Odisha, controlled flooding and tidal irrigation techniques are essential to maintain soil fertility."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "irrigation_advice",
+            "patterns": [
+                "What are the best irrigation techniques for Western Ghats region?",
+                "How can I choose the right irrigation method for Western Ghats region?"
+            ],
+            "responses": [
+                "In the Western Ghats region, rainwater harvesting techniques such as contour bunding and check dams help in conserving water and preventing soil erosion."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "irrigation_advice",
+            "patterns": [
+                "What are the best irrigation techniques for central plateau of Maharashtra and Madhya Pradesh?",
+                "How can I choose the right irrigation method for central plateau of Maharashtra and Madhya Pradesh?"
+            ],
+            "responses": [
+                "In the central plateau of Maharashtra and Madhya Pradesh, drip irrigation coupled with moisture sensors is recommended to optimize water use efficiency."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "irrigation_advice",
+            "patterns": [
+                "What are the best irrigation techniques for Northeastern states?",
+                "How can I choose the right irrigation method for Northeastern states?"
+            ],
+            "responses": [
+                "For the Northeastern states, where rainfall is abundant, rainwater harvesting and contour farming techniques are effective in water conservation."
+            ],
+            "context_set": ""
+        },                                                         
+        {
+            "tag": "contact",
+            "patterns": [
+                "How can I contact support?",
+                "Is there someone I can speak to?",
+                "How do I get in touch with you?"
+            ],
+            "responses": [
+                "You can contact support via email at mrinalpatra3405@gmail.com or phone at 6217195983. We're here to help!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "yeild",
+            "patterns": [
+                "How can I maximise my yield?",
+                "Is there any way possible to increase my land's productivity?",
+                "How do I get maximum output from my fixed amount of land?"
+            ],
+            "responses": [
+                "You can try using our one stop solution for incresing or maximising yield which is Agro-Solutions. It gives you the best advice related to crop production and management. We are here to help you in each and every upcoming step while production."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Subscription",
+            "patterns": [
+                "Do i need to pay anything to you for this?",
+                "How much money are you going to charge for this?",
+                "What is your nominal fees that i will be charged with?"
+            ],
+            "responses": [
+                "Guess what it is absolutely free of cost. We will be assisting you free of cost."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Trust",
+            "patterns": [
+                "Why should I trust you?",
+                "Is it really going to help me out?",
+                "Will I be really going to get benifitted from your service?"
+            ],
+            "responses": [
+                "We want you to give us a chance to prove ourselves. We will definitely not here to waste your time. We will try our best to provide you with the most accurate information."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "24/7 Service",
+            "patterns": [
+                "What if i need your advice late in the night?",
+                "What if i need your advice early in the morning?",
+                "What is the time in which your service I can avail your service?"
+            ],
+            "responses": [
+                "We provide 24/7 service. You can reach to us at any moment of time and we will be assisting you immediately."
+            ],
+            "context_set": ""
+        }
+    ]
+}
