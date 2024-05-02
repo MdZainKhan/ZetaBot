@@ -1,3 +1,4 @@
+setuptools
 keras-nightly
 numpy
 scikit-learn
