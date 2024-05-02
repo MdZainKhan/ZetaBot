@@ -72,7 +72,7 @@ def main():
         speech_audio = text_to_speech(bot_response)
         audio_data = open(speech_audio, 'rb').read()
         audio = Audio(data=audio_data, autoplay=True)
-        st.audio(audio_data, format='audio/wav')
+        st.audio(audio_data, format='audio/wav', start_time=0)
 
         # Add a stop button
         stop_button = st.button('Stop', key='stop_button')
